@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dexter Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="center-content">
+        <div class="search-wrapper">
+          <div class="search-bar">
+            <form autocomplete="off">
+              <input
+                type="search"
+                name="cityName"
+                id="cityName"
+                placeholder="Search Location"
+              />
+              <div class="button">
+                <input type="submit" id="submit" value="" />
+                <i class="bi bi-search"></i>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="temp-detail">
+          <div>
+            <div class="city-name"></div>
+            <div class="temp">
+              <div class="deg"></div>
+              <sup>°</sup>
+            </div>
+            <div class="wc-text"></div>
+            <div class="high-low">
+              H:&nbsp;<span class="high"></span
+              ><sup>°</sup>&nbsp;|&nbsp;L:&nbsp;<span class="low"></span
+              ><sup>°</sup>
+            </div>
+            <div class="realfeel">RealFeel®&nbsp;<span></span><sup>°</sup></div>
+          </div>
+        </div>
+
+        <div class="week-data">
+          <div class="week-title">
+            <i class="bi bi-calendar"></i>&nbsp;WEEKLY FORECAST
+          </div>
+          <div class="data">
+            <div class="daily-0">
+              <div class="day"></div>
+              <div class="icon"><img src="" alt="weather condition" /></div>
+              <div class="condition"></div>
+            </div>
+            <div class="daily-1">
+              <div class="day"></div>
+              <div class="icon"><img src="" alt="weather condition" /></div>
+              <div class="condition"></div>
+              <div class="caret"></div>
+            </div>
+            <div class="daily-2">
+              <div class="day"></div>
+              <div class="icon"><img src="" alt="weather condition" /></div>
+              <div class="condition"></div>
+              <div class="caret"></div>
+            </div>
+            <div class="daily-3">
+              <div class="day"></div>
+              <div class="icon"><img src="" alt="weather condition" /></div>
+              <div class="condition"></div>
+              <div class="caret"></div>
+            </div>
+            <div class="daily-4">
+              <div class="day"></div>
+              <div class="icon"><img src="" alt="weather condition" /></div>
+              <div class="condition"></div>
+              <div class="caret"></div>
+            </div>
+            <div class="daily-5">
+              <div class="day"></div>
+              <div class="icon"><img src="" alt="weather condition" /></div>
+              <div class="condition"></div>
+              <div class="caret"></div>
+            </div>
+            <div class="daily-6">
+              <div class="day"></div>
+              <div class="icon"><img src="" alt="weather condition" /></div>
+              <div class="condition"></div>
+              <div class="caret"></div>
+            </div>
+          </div>
+
+          <div class="more-details">
+            <div class="weather">
+              <span class="title"></span><span class="data"></span>
+            </div>
+            <div class="wind"><span>Wind</span><span class="data"></span></div>
+            <div class="pressure">
+              <span>Pressure</span><span class="data"></span>
+            </div>
+            <div class="humidity">
+              <span>Humidity</span><span class="data"></span>
+            </div>
+            <div class="uv">
+              <span>UV Index</span><span class="data"></span>
+            </div>
+            <div class="sunrise">
+              <span>Sunrise</span><span class="data"></span>
+            </div>
+            <div class="sunset">
+              <span>Sunset</span><span class="data"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hourly-data">
+          <div class="hourly-title">
+            <i class="bi bi-clock"></i>&nbsp;HOURLY FORECAST
+          </div>
+
+          <div class="wrapper">
+            <div class="data1">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data2">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data3">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data4">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data5">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data6">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data7">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data8">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data9">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data10">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data11">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+            <div class="data12">
+              <div class="data-wrapper">
+                <div class="hour"></div>
+                <div class="icon">
+                  <img src="" alt="" />
+                </div>
+                <div class="temp"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="extra-data">
+          <div class="section-1">
+            <div class="humidity">Humidity<br /><span></span>%</div>
+            <div class="uv">UV<br /><span></span></div>
+          </div>
+          <div class="section-2">
+            <div class="visibility">Visibility<br /><span></span></div>
+            <div class="pressure">Pressure<br /><span></span>&nbsp;hPa</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
